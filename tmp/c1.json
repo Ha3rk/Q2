@@ -1,0 +1,16 @@
+{
+    "name": "Jonas Jonaitis",
+    "identifier": 1,
+    "items": [
+        {
+            "name": "Bread",
+            "quantity": 2,
+            "price": 1.3
+        },
+        {
+            "name": "CocaCola",
+            "quantity": 3,
+            "price": 1.7
+        }
+    ]
+}
