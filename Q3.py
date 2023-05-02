@@ -6,11 +6,9 @@ from Q2 import Item
 class Food(Item):
     def __init__(self, item_name, quantity, price):
         super().__init__(item_name, quantity, price)
-        self.item_name = item_name
-        self.quantity = quantity
-        self.price = price
 
     # the formatted string replaces the parameters with their values
+
     def full_info(self):
         super().full_info()
         return f"Food {self.item_name} {self.price} {self.quantity} {self.get_total_price()}"
@@ -21,11 +19,9 @@ class Food(Item):
 class Drink(Item):
     def __init__(self, item_name, quantity, price):
         super().__init__(item_name, quantity, price)
-        self.item_name = item_name
-        self.quantity = quantity
-        self.price = price
 
     # the formatted string replaces the parameters with their values
+
     def full_info(self):
         super().full_info()
         return f"Drink {self.item_name} {self.price} {self.quantity} {self.get_total_price()}"
